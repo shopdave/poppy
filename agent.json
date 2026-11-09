@@ -1,8 +1,8 @@
 {
-  "client_id": "https://poppy.shopdave.ca/agent.json",
+  "client_id": "https://shopdave.github.io/poppy/agent.json",
   "client_name": "Poppy CLI (shopdave prototype)",
   "client_uri": "https://github.com/shopdave/poppy",
-  "jwks_uri": "https://poppy.shopdave.ca/jwks.json",
+  "jwks_uri": "https://shopdave.github.io/poppy/jwks.json",
   "redirect_uris": [
     "http://localhost:8765/callback"
   ],

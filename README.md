@@ -1,11 +1,11 @@
 # poppy
 
 Public metadata for the `poppy-cli` prototype, a command-line Personal Agent for the
-Personal Agent Protocol (Poppy) 0.3. Served by GitHub Pages at https://poppy.shopdave.ca/.
+Personal Agent Protocol (Poppy) 0.3. Served by GitHub Pages at https://shopdave.github.io/poppy/.
 
 | File | Purpose |
 | --- | --- |
-| `agent.json` | OAuth Client ID Metadata Document (CIMD). Its URL, `https://poppy.shopdave.ca/agent.json`, is the agent's `client_id`. |
+| `agent.json` | OAuth Client ID Metadata Document (CIMD). Its URL, `https://shopdave.github.io/poppy/agent.json`, is the agent's `client_id`. |
 | `jwks.json` | Public JWK Set (ES256). Verifies the agent's `private_key_jwt` client assertions and the delegations that vouch for its Session JWT keys. |
 | `ucp-profile.json` | UCP platform profile (UCP `2026-08-25`) the agent advertises on every UCP request. |
 | `CNAME`, `.nojekyll` | GitHub Pages custom domain and raw file serving. |
