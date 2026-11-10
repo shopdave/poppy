@@ -7,6 +7,9 @@
     "http://localhost:8765/callback"
   ],
   "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_methods_supported": [
+    "private_key_jwt"
+  ],
   "token_endpoint_auth_signing_alg": "ES256",
   "grant_types": [
     "authorization_code",
