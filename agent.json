@@ -4,7 +4,7 @@
   "client_uri": "https://github.com/shopdave/poppy",
   "jwks_uri": "https://shopdave.github.io/poppy/jwks.json",
   "redirect_uris": [
-    "http://localhost:8765/callback"
+    "https://shopdave.github.io/poppy/callback.html"
   ],
   "token_endpoint_auth_method": "private_key_jwt",
   "token_endpoint_auth_methods_supported": [

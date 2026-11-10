@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<title>Returning to Poppy CLI</title>
+</head>
+<body>
+<p>Returning to Poppy CLI&hellip; If nothing happens, check that <code>poppy login</code> is still running.</p>
+<script>
+  // Hands the authorization response to the CLI's loopback server. The page keeps nothing and loads nothing else.
+  location.replace("http://localhost:8765/callback" + location.search);
+</script>
+</body>
+</html>
